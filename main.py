@@ -11,7 +11,7 @@ OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 # ✅ Только DeepSeek R1 с рассуждениями (полностью бесплатно!)
-DEEPSEEK_MODEL = "deepseek/deepseek-r1:free"
+DEEPSEEK_MODEL = "deepseek/deepseek-r1-distill-llama-70b:free"
 
 # Настройка логирования
 logging.basicConfig(level=logging.INFO)
